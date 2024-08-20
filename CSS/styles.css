@@ -1,0 +1,32 @@
+/* STYLES FOR ALL WEBPAGES
+
+author: Seadrah Berger
+date: 8/20/2024
+file name: styles.css
+*/
+
+body {
+  background-color: rgb(196, 168, 135);
+}
+
+main {
+  background-color: antiquewhite;
+}
+
+.vertical {
+  background-color: rgb(115, 166, 207);
+}
+
+.horizontal {
+  background-color: rgb(32, 29, 58);
+}
+
+footer {
+  background-color: rgb(32, 29, 58);
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

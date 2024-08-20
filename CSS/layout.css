@@ -1,0 +1,75 @@
+/* LAYOUT FOR ALL WEBPAGES
+
+author: Seadrah Berger
+date: 8/10/2024
+file name: layout.css
+*/
+
+/* BODY / GRID */
+
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(1fr) 0.06fr 1fr 0.06fr;
+  grid-template-areas:
+    "logo logo vnav"
+    "hnav hnav hnav"
+    "main main main"
+    "footer footer footer";
+  padding: 0 10px;
+  padding-bottom: 10px;
+}
+
+/* GRID COMPONENTS */
+
+#logo {
+  grid-area: logo;
+  width: 100%;
+}
+
+.vertical {
+  grid-area: vnav;
+}
+
+.vertical ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+
+.horizontal {
+  grid-area: hnav;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 7px;
+  font-size: 1.1em;
+}
+
+main {
+  grid-area: main;
+}
+
+main section img {
+  display: none;
+}
+
+main p {
+  display: none;
+}
+
+footer {
+  grid-area: footer;
+  align-self: start;
+  text-align: center;
+}
+
+footer p {
+  margin: 5px;
+}

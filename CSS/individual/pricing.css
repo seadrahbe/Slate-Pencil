@@ -1,0 +1,71 @@
+/* PRICING PAGE
+
+author: Seadrah Berger
+date: 8/20/2024
+file name: pricing.css
+*/
+
+/* MAIN */
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+/* TABLE */
+
+table {
+  font-size: 1.1em;
+  flex-grow: 1;
+  width: 100%;
+  justify-self: stretch;
+  margin: 40px;
+  margin-right: 0;
+  
+}
+
+th {
+  background-color: rgb(32, 29, 58);
+  color: white;
+  padding: 5px 0;
+}
+
+table tbody td {
+  background-color: rgb(184, 184, 197);
+  border: 1px black solid;
+  padding: 10px;
+}
+
+table tbody tr:nth-child(odd) td {
+  background-color: aliceblue;
+}
+
+/* ASIDE */
+
+aside p {
+  display: block;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+aside ul {
+  list-style-type: unset;
+  line-height: 1.75em;
+  margin-left: 25px;
+}
+
+aside ul a {
+  color: rgb(90, 52, 107);
+}
+
+aside {
+  background-color: rgb(228, 218, 128);
+  width: 30em;
+  font-size: 1.2em;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 40px;
+  margin-right: 50px;
+}

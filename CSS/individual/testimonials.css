@@ -1,0 +1,39 @@
+/* TESTIMONIALS PAGE
+
+author: Seadrah Berger
+date: 8/20/2024
+file name: testimonials.css
+*/
+
+/* MAIN */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 50px 60px;
+  gap: 40px;
+  column-gap: 100px;
+}
+
+/* ASIDE */
+
+aside {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 1fr;
+  color: rgb(49, 13, 90);
+  font-size: 1.1em;
+  align-items: start;
+}
+
+aside p {
+  display: inline-block;
+  grid-column: 2 / -1;
+  margin: 10px;
+}
+
+aside img {
+  display: inline-block;
+  grid-row: 1 / -1;
+}
